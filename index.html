@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alejandra Gonzalez</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-black" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand text-danger-emphasis" href="#">Alejandra Gonzalez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger-emphasis" aria-current="page"
+                                href="#yo">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger-emphasis" aria-current="page"
+                                href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger-emphasis" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger-emphasis" href="#testimonios">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger-emphasis" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <!--SECCION DE LA INFORMACION PRINCIPAL-->
+        <section id="presentacion" class="container-fluid" data-bs-theme="dark">
+            <div class="d-flex flex-column align-items-center">
+                <div class="row w-100 align-items-center justify-content-center">
+                    <div class="col-xxl-8 px-4 py-5">
+                        <div class="row align-items-center g-5 py-5">
+                            <div class="col-lg-6 col-md-8 col-sm-12">
+                                <h1 class="display-5 fw-bold text-white lh-1 mb-3" id="app">Alejandra Gonzalez</h1>
+                                <p class="lead text-white text-shadow-1">
+                                    Soy estudiante de Ingeniería en Computación en la Facultad de Estudios Superiores Aragón UNAM. Apasionada por el desarrollo de software, con un enfoque especial en el desarrollo web tanto frontend como backend. Con conocimientos en programación, especialmente en lenguajes como Java, y una fuerte disposición para aprender nuevos lenguajes.
+                                </p>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-start align-items-center">
+                                    <a href="#contacto">
+                                        <button type="button" class="btn btn-light btn-lg px-4 me-md-2">Contáctame</button>
+                                    </a>
+                                    
+                                    <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">gonzalez.jaime.arleth.a@gmail.com</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-sm-12 d-flex justify-content-center align-items-center">
+                                <img src="assets/perfil.jpg" class="img-fluid image-rounded" alt="Imagen de presentación">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <style>
+            .image-with-margin {
+                margin-left: 100px; /* Espacio de 50px desde el div de información */
+            }
+        </style>
+        
+        <!--SECCION DE QUIEN SOY-->
+        <section id="yo" class="container px-4 py-5">
+            <!-- Título de la sección -->
+            <h2 class="pb-2 border-bottom">¿Quién soy?</h2>
+            <!-- Contenido de la sección -->
+            <div class="row align-items-center" data-aos="fade-right">
+                <!-- Texto sobre mí -->
+                <div class="col-lg-6 order-lg-1">
+                    <div class="container_texto-sobreMi">
+                        <br>
+                        <h1>Alejandra Gonzalez</h1>
+                        <br>
+                        <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
+                            Soy estudiante de Ingeniería en Computación en la Facultad de Estudios Superiores Aragón, UNAM. Me apasiona el desarrollo web tanto en frontend como en backend,con conocimientos de programación en Java, C++, HTML, Python y JavaScript, así como base de datos. <br> Mi pasión por la tecnología y la programación me impulsa a aprender constantemente nuevos lenguajes y herramientas. <br> Además de mi interés en la programación, disfruto de la lectura, lo que me permite mantener una mente abierta y creativa en mis proyectos. <br> Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional.
+                            <br>
+                            Soy una persona empática y entusiasta, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender de los demás y superarme continuamente.Estoy comprometida con el aprendizaje continuo y con la creación de soluciones innovadoras en el ámbito de la informática.
+                        </span>
+                    </div>
+                </div>
+                <!-- Carrusel de imágenes -->
+                <div class="col-lg-6 order-lg-2">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/carrusel/carrusel1.jpg" class="d-block mx-auto img-fluid carousel-img" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/carrusel/carrusel2.jpg" class="d-block mx-auto img-fluid carousel-img" alt="Imagen 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/carrusel/carrusel3.jpg" class="d-block mx-auto img-fluid carousel-img" alt="Imagen 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/carrusel/carrusel4.jpg" class="d-block mx-auto img-fluid carousel-img" alt="Imagen 4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/carrusel/carrusel5.jpg" class="d-block mx-auto img-fluid carousel-img" alt="Imagen 5">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--SECCION HABILIDADES-->
+        <section id="habilidades" class="container px-4 py-5">
+            <!-- Título de mi sección -->
+            <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <!-- Contenedor de mis cartas -->
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+                <div class="feature col">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center text-danger-emphasis bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
+                    <p>Conocimientos en HTML y CSS.</p>
+                </div>
+
+                <div class="feature col">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center text-danger-emphasis bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
+                    <p>Tengo experiencia trabajando en equipo y he logrado excelentes resultados en proyectos
+                        colaborativos. Mi capacidad
+                        para escuchar, comunicarme y coordinar con otros ha sido fundamental para alcanzar metas
+                        comunes.</p>
+                </div>
+
+                <div class="feature col">
+                    <div
+                        class="d-inline-flex align-items-center justify-content-center text-danger-emphasis bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Desarrollo de aplicaciones</h3>
+                    <p>Conocimientos Java, JavaScript, C++ y Python.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--SECCION DE PROYECTOS-->
+        <section id="proyectos" class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">Mis Proyectos</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+                <div class="col">
+                    <div id="proyecto-1"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+
+                        <!--CLON DE GOOGLE-->
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google.</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="https://github.com/Alejandraglezjaime/Cloon-google.git" target="_blank"
+                                        class="ps-3">Código</a>
+                                </li>
+                                <i class="bi bi-fast-forward-fill"></i>
+                                <li class="d-flex align-items-center me-3">
+                                    <a href="https://cloon-google.vercel.app/" target="_blank" class="ps-3">Visita el sitio</a> <!-- Texto -->
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                
+                
+                <!--CAFETERIA-->          
+                <div class="col">
+                    <div id="proyecto-2"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Página web cafetería.</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="https://github.com/Alejandraglezjaime/cafeteria.git" target="_blank"
+                                        class="ps-3">Código</a>
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-fast-forward-fill"></i>
+                                    <a href="https://cafeteria-wheat.vercel.app/" target="_blank" class="ps-3">Visita el sitio</a> <!-- Texto -->
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!--PORTAFOLIO VERSION 1-->
+                <div class="col">
+                    <div id="proyecto-3"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Página web cafetería.</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="https://github.com/Alejandraglezjaime/Pagina-barberia.git" target="_blank"
+                                        class="ps-3">Código</a>
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-fast-forward-fill"></i>
+                                    <a href="https://" target="_blank" class="ps-3">Visita el sitio</a> <!-- Texto -->
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--PORTAFOLIO OFICIAL-->
+                <!--APLICACION VACACIONAL-->
+                <!--PAGINA BARBERIA-->
+                <!--PAGINA LIBRERIA -->
+                <!--PAGINA FRASES CELEBRES -->
+                <!--JUEGOS EN JAVA -->
+                <!--JUEGO DEL NUMERO SECRETO -->
+                <!--CONVERSOR DE MONEDAS -->
+                <!--APLICACION SCREENMATCH-->
+                <!--APLICACION MEDICA FASE 1 -->
+
+
+            </div>
+
+        </section>
+
+
+        <section id="testimonios">
+            <h1 class="text-center my-5">Testimonios</h1>
+            <div id="myCarousel" class="carousel slide carousel-dark mb-6" data-bs-theme="dark" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/walt-disney.webp" height="200" alt="Walt Disney">
+                            <h3 class="my-3">Walt Disney</h3>
+                            <p>"Su dibujo comienza a mejorar."</p>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/leorizzi.jpg" height="200" alt="Leo Rizzi">
+                            <h3 class="my-3">Leo Rizzi</h3>
+                            <p>"Su Rotoscopia es un muy buen trabajo."</p>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center">
+                            <img class="rounded-4" src="assets/charlotte.webp" height="200" alt="Charlotte">
+                            <h3 class="my-3">Charlotte</h3>
+                            <p>"Sus Ilustraciones me gustan mucho."</p>
+                        </article>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
+        <p class="mt-5 text-danger-emphasis text-center texto-gigante">
+            <i class="bi bi-file-code-fill"></i>
+        </p>
+        <h4 class="text-danger-emphasis text-center my-3">"If you can dream it, you can do it"</h4>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+
+            <li class="nav-item fs-1">
+                <a href="https://www.instagram.com/rain.colors0506?igsh=ajJ5cGZxdm1haGM3" target="_blank"
+                    class="nav-link px-2 text-body-secondary text-danger-emphasis">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1">
+                <a href="https://github.com/Lluvi376" target="_blank"
+                    class="nav-link px-2 text-body-secondary text-danger-emphasis">
+                    <i class="bi bi-github"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1">
+                <a href="https://www.youtube.com/channel/UC08OXVY-udV7nsFCe0oPRTQ" target="_blank"
+                    class="nav-link px-2 text-body-secondary text-danger-emphasis">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </li>
+            <li class="nav-item fs-1">
+                <a href="https://www.tiktok.com/@maritza.navarrete4?is_from_webapp=1&sender_device=pc" target="_blank"
+                    class="nav-link px-2 text-body-secondary text-danger-emphasis">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+            </li>
+
+        </ul>
+        <p class="text-center text-danger-emphasis">© 2024 Lluvia, TECHNOLOCHICAS PRO</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

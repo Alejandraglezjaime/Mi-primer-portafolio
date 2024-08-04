@@ -1,0 +1,76 @@
+#presentacion{
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-image: url(assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.image-rounded {
+    border-radius: 50%; /* Hace la imagen redonda */
+    border: 3px solid white; /* Ajusta el borde blanco a 3px */
+    margin-left: 50px; /* Espacio de 50px desde el div de información */
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen si es necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Añade una transición suave */
+}
+
+.image-rounded:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+    opacity: 0.9; /* Reduce la opacidad de la imagen para hacerla más transparente */
+}
+
+.image_sobreMi {
+    max-width: 45%; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen en su contenedor */
+}
+
+.carousel-img {
+    max-width: 100%;
+    max-height: 300px; /* Ajusta la altura máxima */
+    object-fit: contain; /* Ajusta la imagen para que se contenga dentro del contenedor */
+    margin: auto; /* Centra la imagen dentro del carrusel */
+}
+
+
+
+.proyecto{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#proyecto-1{
+    background-image: url('assets/proyectos/logonuevo.gif');
+}
+
+#proyecto-2{
+    background-image: url('assets/proyectos/paginaWebCafeteria.jpg');
+}
+
+#proyecto-3{
+    background-image: url('assets/proyectos/portafolio.jpg');
+}
+
+/* Esta sirve para que los textos se vean */
+.text-shadow-1 {
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
+
+.texto-gigante{
+    font-size: 80px;
+}
+
+@media (min-width: 992px) {
+    .image-rounded {
+        margin-left: 50px; /* Añade margen izquierdo para pantallas más grandes */
+    }
+}
