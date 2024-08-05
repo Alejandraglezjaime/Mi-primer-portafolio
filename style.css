@@ -60,6 +60,43 @@
     background-image: url('assets/proyectos/portafolio.jpg');
 }
 
+#proyecto-5{
+    background-image: url('assets/proyectos/aplicacionCocaCola.jpg');
+}
+#proyecto-6{
+    background-image: url('assets/proyectos/paginaWebBarberia.jpg');
+}
+#proyecto-7{
+    background-image: url('assets/proyectos/appClinicaMedica.jpg');
+}
+#proyecto-8{
+    background-image: url('assets/proyectos/apiLibreria.jpg');
+}
+#proyecto-9{
+    background-image: url('assets/proyectos/paginaWebsimuladordepeliculas.jpg');
+}
+#proyecto-10{
+    background-image: url('assets/proyectos/paginaWebfrasesCelebres.jpg');
+}
+#proyecto-11{
+    background-image: url('assets/proyectos/conversorMonedas.jpg');
+}
+#proyecto-12{
+    background-image: url('assets/proyectos/starwars.jpg');
+}
+#proyecto-13{
+    background-image: url('assets/proyectos/paginaWeblibreria.jpg');
+}
+#proyecto-14{
+    background-image: url('assets/proyectos/juegosEnJava.jpg');
+}
+
+#proyecto-15{
+    background-image: url('assets/proyectos/paginaWebnumerosecreto.jpg');
+}
+
+
+
 /* Esta sirve para que los textos se vean */
 .text-shadow-1 {
     text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
